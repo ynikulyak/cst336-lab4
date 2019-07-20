@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" type="text/css" href="/css/styles.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<title>The Solar System: <%= page %></title>
+
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="/">
+    <img src="/img/solar-system-logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+    Solar System
+  </a>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item <% if(page=='index') { %>active <% } %>">
+        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item <% if(page=='mercury') { %>active <% } %>">
+        <a class="nav-link" href="/mercury">Mercury <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item <% if(page=='venus') { %>active <% } %>">
+        <a class="nav-link" href="/venus">Venus <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item <% if(page=='earth') { %>active <% } %>">
+        <a class="nav-link" href="/earth">Earth <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item <% if(page=='mars') { %>active <% } %>">
+        <a class="nav-link" href="/mars">Mars <span class="sr-only">(current)</span></a>
+      </li>
+     <li class="nav-item <% if(page=='pluto') { %>active <% } %>">
+        <a class="nav-link" href="/pluto">Pluto <span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="jumbotron">

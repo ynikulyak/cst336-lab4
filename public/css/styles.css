@@ -1,0 +1,55 @@
+.jumbotron {
+	text-align: center;
+	margin-right: 90px;
+	margin-top: 50px;
+	margin-left: 90px;
+	margin-bottom: 50px;
+}
+
+body {
+	background-color: black !important;
+}
+
+footer {
+	color: grey;
+	text-align: center;
+	font-size: small;
+}
+
+footer > div {
+	display: flex;
+	justify-content: center;
+}
+
+#csumb {
+	margin-right: 10px;
+}
+
+#disclaimer {
+	text-align: left;
+}
+
+#know_more {
+	font-size: 1.4em;
+}
+
+span.sr-only {
+	color: blue;
+}
+
+.nav-link {
+	font-size: 1.1em;
+}
+
+.nav-link:hover {
+	background-color: grey;
+	transition: 1s;
+}
+
+#source {
+	font-size: small;
+}
+
+#venus, #mercury, #earth, #mars, #pluto {
+	text-align: left;
+}
